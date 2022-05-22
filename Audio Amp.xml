@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\KiCad Projects\Audio Amp\Audio Amp.sch</source>
+    <date>5/21/2022 7:02:40 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Audio Amp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TA8251AH</value>
+      <footprint>Package_DIP:HZIP25-P-1.27</footprint>
+      <datasheet>https://www.alldatasheet.com/datasheet-pdf/pdf/31471/TOSHIBA/TA8251AH.html</datasheet>
+      <libsource lib="Amplifier_Audio" part="TA8251AH" description="MAX POWER 30W BTLx4CH AUDIO POWER IC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6283B8F4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284737A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628492AC</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284D94F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284DDA0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2200uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_18x17.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6285EFD0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628982E4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628982DE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628982D5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628982CF</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>INPUT</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC040162/ED2602-ND/614551</field>
+        <field name="Description">TERM BLK 4POS SIDE ENTRY 5MM PCB</field>
+        <field name="Digi-Key_PN">ED2602-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC040162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC040162" description="TERM BLK 4POS SIDE ENTRY 5MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628BC243</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>OUTPUT</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC040162/ED2602-ND/614551</field>
+        <field name="Description">TERM BLK 4POS SIDE ENTRY 5MM PCB</field>
+        <field name="Digi-Key_PN">ED2602-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC040162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC040162" description="TERM BLK 4POS SIDE ENTRY 5MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628BD8D0</tstamp>
+    </comp>
+    <comp ref="VCC1">
+      <value>VCC</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614</field>
+        <field name="Description">TERM BLK 2POS SIDE ENTRY 5MM PCB</field>
+        <field name="Digi-Key_PN">277-1667-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">1935161</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="1935161" description="TERM BLK 2POS SIDE ENTRY 5MM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628EB36F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Audio" part="TA8251AH">
+      <description>MAX POWER 30W BTLx4CH AUDIO POWER IC</description>
+      <docs>https://www.alldatasheet.com/datasheet-pdf/pdf/31471/TOSHIBA/TA8251AH.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TA8251AH</field>
+        <field name="Footprint">Audio Amp:HZIP25-P-1.27</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MUTE" type="input"/>
+        <pin num="2" name="STDBY" type="input"/>
+        <pin num="3" name="OUT4(+)" type="output"/>
+        <pin num="4" name="GND4" type="output"/>
+        <pin num="5" name="OUT4(-)" type="output"/>
+        <pin num="6" name="VCC2" type="input"/>
+        <pin num="7" name="OUT3(-)" type="output"/>
+        <pin num="8" name="GND3" type="output"/>
+        <pin num="9" name="OUT3(+)" type="output"/>
+        <pin num="10" name="RIP" type="input"/>
+        <pin num="11" name="IN3" type="input"/>
+        <pin num="12" name="IN4" type="input"/>
+        <pin num="13" name="PRE-GND" type="input"/>
+        <pin num="14" name="IN2" type="input"/>
+        <pin num="15" name="IN1" type="input"/>
+        <pin num="16" name="AUX_IN" type="input"/>
+        <pin num="17" name="OUT1(+)" type="output"/>
+        <pin num="18" name="GND1" type="output"/>
+        <pin num="19" name="OUT1(-)" type="output"/>
+        <pin num="20" name="VCC1" type="input"/>
+        <pin num="21" name="OUT2(-)" type="output"/>
+        <pin num="22" name="GND2" type="output"/>
+        <pin num="23" name="OUT2(+)" type="output"/>
+        <pin num="24" name="TJ_DET" type="input"/>
+        <pin num="25" name="MUTE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Terminal-Blocks-Wire-to-Board" part="1935161">
+      <description>TERM BLK 2POS SIDE ENTRY 5MM PCB</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1935161</field>
+        <field name="Footprint">digikey-footprints:Terminal_Block_D1.3mm_P5mm</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf</field>
+        <field name="Digi-Key_PN">277-1667-ND</field>
+        <field name="MPN">1935161</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614</field>
+        <field name="Description">TERM BLK 2POS SIDE ENTRY 5MM PCB</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC040162">
+      <description>TERM BLK 4POS SIDE ENTRY 5MM PCB</description>
+      <docs>http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OSTTC040162</field>
+        <field name="Footprint">digikey-footprints:Term_Block_1x4_P5mm</field>
+        <field name="Datasheet">http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</field>
+        <field name="Digi-Key_PN">ED2602-ND</field>
+        <field name="MPN">OSTTC040162</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC040162/ED2602-ND/614551</field>
+        <field name="Description">TERM BLK 4POS SIDE ENTRY 5MM PCB</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Audio">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Amplifier_Audio.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="dk_Terminal-Blocks-Wire-to-Board">
+      <uri>D:/digikey-kicad-library/digikey-symbols/dk_Terminal-Blocks-Wire-to-Board.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C3-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad1)">
+      <node ref="U1" pin="15"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad3)">
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="6" name="Earth">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="22"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="VCC1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="13" name="Net-(C1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="18" name="Net-(C1-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="VCC1" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+  </nets>
+</export>
