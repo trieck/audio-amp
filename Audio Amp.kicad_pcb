@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 22)
+    (drawings 23)
     (tracks 116)
     (zones 0)
     (modules 17)
@@ -919,6 +919,18 @@
     )
   )
 
+  (dimension 8.25 (width 0.15) (layer F.SilkS)
+    (gr_text "8.250 mm" (at 106.125 100.05) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 110.25 89.5) (xy 110.25 99.336421)))
+    (feature2 (pts (xy 102 89.5) (xy 102 99.336421)))
+    (crossbar (pts (xy 102 98.75) (xy 110.25 98.75)))
+    (arrow1a (pts (xy 110.25 98.75) (xy 109.123496 99.336421)))
+    (arrow1b (pts (xy 110.25 98.75) (xy 109.123496 98.163579)))
+    (arrow2a (pts (xy 102 98.75) (xy 103.126504 99.336421)))
+    (arrow2b (pts (xy 102 98.75) (xy 103.126504 98.163579)))
+  )
   (dimension 5 (width 0.15) (layer Eco1.User)
     (gr_text "5.000 mm" (at 146.3 32.5 90) (layer Eco1.User)
       (effects (font (size 1 1) (thickness 0.15)))
